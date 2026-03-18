@@ -3161,7 +3161,7 @@ class WebDriver extends CodeceptionModule implements
      * $I->pressKey('#page', [WebDriverKeys::CONTROL, 'a'], 'new'); // => new
      * $I->pressKey('#page', [WebDriverKeys::SHIFT, '111'], '1', 'x'); // => old!!!1x
      * $I->pressKey('descendant-or-self::*[@id='page']', 'u'); // => oldu
-     * $I->pressKey('#name', [WebDriverKeys::CONTROL, 'a'], WebDriverKeys::DELETE); // => ''
+     * $I->pressKey('#page', [WebDriverKeys::CONTROL, 'a'], WebDriverKeys::DELETE); // => ''
      * ```
      *
      * @param string|array|WebDriverBy $element
